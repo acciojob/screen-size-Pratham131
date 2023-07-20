@@ -4,7 +4,7 @@ function updateSizeInfo() {
     const width = window.innerWidth;
     const height = window.innerHeight;
     const sizeInfoElement = document.querySelector("#sizeInfo h1");
-    sizeInfoElement.textText = `Width: ${width} and Height: ${height}`;
+    sizeInfoElement.textContent = `Width: ${width} and Height: ${height}`;
 }
 
 // Call the updateSizeInfo function when the window is resized
